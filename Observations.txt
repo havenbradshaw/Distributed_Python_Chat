@@ -1,0 +1,9 @@
+Step 3: Observations
+- Queues coordinate communication in this program by working as one-way paths, one for 
+sending and one for recieving information so the messages don't get mixed up. Client 1 
+and 2 share these two queues, and client 3 and 4 share their own as well. Implementing 
+the additional clients was very simple, all I had to do was add the correct queues and 
+reference them correctly.
+
+- Overall, this assignment helped me deeper undrstand the way queues work in communication 
+between clients, and it made me feel much more comfortable implementing them in code, specifically python.
